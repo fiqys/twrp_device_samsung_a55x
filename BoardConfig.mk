@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/samsung/essi
+DEVICE_PATH := device/samsung/a55x
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -59,7 +59,7 @@ BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 TARGET_KERNEL_CONFIG := essi_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/essi
+TARGET_KERNEL_SOURCE := kernel/samsung/a55x
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true

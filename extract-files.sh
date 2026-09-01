@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=essi
+DEVICE=a55x
 VENDOR=samsung
 
 # Load extract_utils and do some sanity checks

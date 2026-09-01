@@ -1,4 +1,4 @@
-# Android device tree for samsung SM-A556E (essi)
+# Android device tree for samsung a55x
 
 ```
 #
